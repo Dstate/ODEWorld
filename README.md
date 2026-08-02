@@ -1,6 +1,6 @@
 # ODEWorld
 
-[📄 Paper](https://arxiv.org/abs/2607.27924) &nbsp; [🌐 Website](https://dstate.github.io/odeworld_website/) &nbsp; [🤗 Hugging Face](https://huggingface.co/ldxxx?search=ODEWorld)
+[[📄 Paper]](https://arxiv.org/abs/2607.27924) &nbsp; [[🌐 Website]](https://dstate.github.io/odeworld_website/) &nbsp; [[🤗 Hugging Face]](https://huggingface.co/ldxxx?search=ODEWorld)
 
 The Official Implementation of "ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow"
 
