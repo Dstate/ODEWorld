@@ -1,0 +1,30 @@
+{
+  "dataset": "agibot",
+  "cases": [
+    {
+      "id": "case_00",
+      "start_image": "case_00/start.png",
+      "goal_image": "case_00/goal.png"
+    },
+    {
+      "id": "case_01",
+      "start_image": "case_01/start.png",
+      "goal_image": "case_01/goal.png"
+    },
+    {
+      "id": "case_02",
+      "start_image": "case_02/start.png",
+      "goal_image": "case_02/goal.png"
+    },
+    {
+      "id": "case_03",
+      "start_image": "case_03/start.png",
+      "goal_image": "case_03/goal.png"
+    },
+    {
+      "id": "case_04",
+      "start_image": "case_04/start.png",
+      "goal_image": "case_04/goal.png"
+    }
+  ]
+}

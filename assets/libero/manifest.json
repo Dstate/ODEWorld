@@ -1,0 +1,35 @@
+{
+  "dataset": "libero",
+  "cases": [
+    {
+      "id": "case_00",
+      "start_image": "case_00/start.png",
+      "goal_image": "case_00/goal.png",
+      "instruction": "put the butter at the back in the top drawer of the cabinet and close it"
+    },
+    {
+      "id": "case_01",
+      "start_image": "case_01/start.png",
+      "goal_image": "case_01/goal.png",
+      "instruction": "pick up the cream cheese and put it in the tray"
+    },
+    {
+      "id": "case_02",
+      "start_image": "case_02/start.png",
+      "goal_image": "case_02/goal.png",
+      "instruction": "pick up the black bowl on the cookie box and place it on the plate"
+    },
+    {
+      "id": "case_03",
+      "start_image": "case_03/start.png",
+      "goal_image": "case_03/goal.png",
+      "instruction": "put the butter at the front in the top drawer of the cabinet and close it"
+    },
+    {
+      "id": "case_04",
+      "start_image": "case_04/start.png",
+      "goal_image": "case_04/goal.png",
+      "instruction": "put the moka pot on the stove"
+    }
+  ]
+}
