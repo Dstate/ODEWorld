@@ -55,3 +55,13 @@ python demo_infer.py --dataset agibot
 ```
 
 Use `--case-ids case_00` to run a single case. Results are written to `outputs/<dataset>/<case_id>`.
+
+## Reference
+```bash
+@article{liu-niu2026odeworld,
+  title={ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow},
+  author={Liu, Dongxiu and Niu, Haoyi and Cheng, Peng and Gao, Yuan and Kang, Xirui and Teng, Sangli and Sreenath, Koushil and Zhan, Xianyuan},
+  journal={arXiv preprint arXiv:2607.27924},
+  year={2026}
+}
+```
