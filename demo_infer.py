@@ -245,7 +245,7 @@ def main() -> None:
     args = parse_args()
     device = torch.device(args.device)
     defaults = MODEL_DIRS[args.dataset]
-    dataset_dir = ROOT / "assets" / args.dataset
+    dataset_dir = ROOT / "assets" / "examples" / args.dataset
     manifest = json.loads((dataset_dir / "manifest.json").read_text())
     selected_ids = set(args.case_ids) if args.case_ids else None
     cases = [case for case in manifest["cases"] if selected_ids is None or case["id"] in selected_ids]

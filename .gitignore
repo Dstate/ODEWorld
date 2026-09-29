@@ -180,3 +180,6 @@ pendulum_figures
 pendulum_ckpt
 checkpoints
 vis
+
+# Local pretrained training weights
+/assets/weights/
