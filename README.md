@@ -1,6 +1,6 @@
 # ODEWorld
 
-[📄 Paper](https://arxiv.org/abs/2607.27924) &nbsp; [🌐 Website](https://dstate.github.io/odeworld_website/) &nbsp; [🤗 Hugging Face](https://huggingface.co/ldxxx?search=ODEWorld)
+[[📄 Paper]](https://arxiv.org/abs/2607.27924) &nbsp; [[🌐 Website]](https://dstate.github.io/odeworld_website/) &nbsp; [[🤗 Hugging Face]](https://huggingface.co/collections/ldxxx/odeworld)
 
 The Official Implementation of "ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow"
 
@@ -125,3 +125,13 @@ Run from the repository root and choose the commands for your dataset.
    ```bash
    bash scripts/train_dinov2goalpred_libero.sh
    ```
+
+## Reference
+```bash
+@article{liu-niu2026odeworld,
+  title={ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow},
+  author={Liu, Dongxiu and Niu, Haoyi and Cheng, Peng and Gao, Yuan and Kang, Xirui and Teng, Sangli and Sreenath, Koushil and Zhan, Xianyuan},
+  journal={Advances in Neural Information Processing Systems},
+  year={2026}
+}
+```
