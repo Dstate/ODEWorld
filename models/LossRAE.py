@@ -85,7 +85,13 @@ class LossFunc(object):
         gan_train_percent = 0.75,
         
     ):
+        distributed = torch.distributed.is_available() and torch.distributed.is_initialized()
+        # Let rank 0 populate the shared VGG16 and LPIPS caches first.
+        if distributed and torch.distributed.get_rank() != 0:
+            torch.distributed.barrier()
         self.lpips = LPIPS().cuda()
+        if distributed and torch.distributed.get_rank() == 0:
+            torch.distributed.barrier()
         self.lpips.eval()
         self.lpips_weight = lpips_weight
         self.gan_weight = gan_weight
